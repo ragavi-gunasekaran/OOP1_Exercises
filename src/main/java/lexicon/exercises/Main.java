@@ -34,5 +34,11 @@ public class Main {
         Student student2 = new Student(2,"Linda",16,"History");
         System.out.println(student1.toString());
         System.out.println(student2.toString());
+
+        //Exercise - 4
+        Product product = new Product(1, 2000, "Television");
+        Product product1 = new Product(2,3000,"Grinder");
+        System.out.println(product.toString());
+        System.out.println(product1.toString());
     }
 }
