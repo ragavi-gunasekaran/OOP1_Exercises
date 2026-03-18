@@ -28,5 +28,11 @@ public class Main {
         System.out.println(customer2.toString());
         System.out.println(customer3.toString());
         System.out.println(customer4.toString());
+
+        //Exercise -3
+        Student student1 = new Student(1,"Elena",15,"IT");
+        Student student2 = new Student(2,"Linda",16,"History");
+        System.out.println(student1.toString());
+        System.out.println(student2.toString());
     }
 }
